@@ -1,0 +1,36 @@
+/* src/components/AddBook.css */
+
+.add-book-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .add-book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .add-book-form input, .add-book-form textarea {
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  .add-book-form button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .add-book-form button:hover {
+    background-color: #45a049;
+  }
+  
